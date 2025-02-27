@@ -149,6 +149,9 @@ section {
 
 .section-container {
   display: flex;
+  padding: 0px;
+  margin: 0px;
+  gap: 0px;
 }
 
 /* PROFILE SECTION */
@@ -164,7 +167,12 @@ section {
   display: flex;
   height: 400px;
   width: 400px;
-  margin: auto 0;
+  margin: 0px;
+  justify-content: center;
+  align-items: center;
+  justify-self: center;
+  align-self: center;
+  padding: 0px;
 }
 
 .section__text {
@@ -201,7 +209,11 @@ section {
 
 .icon {
   cursor: pointer;
-  height: 2rem;
+  height: 1rem;
+}
+.icon-e {
+  cursor: pointer;
+  height: 2.5rem;
 }
 
 /* BUTTONS */
@@ -276,6 +288,7 @@ section {
 
 .about-pic {
   border-radius: 2rem;
+  /* justify-self: start; */
   height: 300px;
   width: 250px;
 }
@@ -287,7 +300,7 @@ section {
 }
 
 .details-container {
-  padding: 1.5rem;
+  padding: 1.0rem;
   flex: 1;
   background: white;
   border-radius: 2rem;
@@ -331,7 +344,7 @@ section {
   text-align: initial;
   flex-wrap: wrap;
   flex-direction: row;
-  gap: 2.5rem;
+  gap: 1.0rem;
   justify-content: space-around;
 }
 
@@ -416,8 +429,8 @@ article .icon {
 /* FOOTER SECTION */
 
 footer {
-  height: 5vh;
-  margin: 0 1rem;
+  height: 50px;
+  /* margin: 0 1rem; */
 }
 
 footer p {
