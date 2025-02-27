@@ -204,7 +204,10 @@ section {
   margin-top: 1rem;
   gap: 1rem;
 }
-
+.responsive-title {
+  font-size: 100px;
+  margin-bottom: 50px;
+}
 /* ICONS */
 
 .icon {
@@ -215,7 +218,10 @@ section {
   cursor: pointer;
   height: 2.5rem;
 }
-
+.icon-l {
+  cursor: pointer;
+  height: 2.0rem;
+}
 /* BUTTONS */
 
 .btn-container {

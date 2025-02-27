@@ -46,6 +46,11 @@
             >
           </li>
           <li class="nav-item active">
+            <a class="nav-link" href="#skills" style="font-size: 0.9rem"
+              >Skills</a
+            >
+          </li>
+          <li class="nav-item active">
             <a class="nav-link" href="#experience" style="font-size: 0.9rem"
               >Experience</a
             >
@@ -84,7 +89,13 @@
       </div> -->
       <div class="section__text" style="color: #5b5858">
         <p class="section__text__p1" style="color: #b4b1b1">Hello, I'm</p>
-        <h1 style="font-size: 100px; margin-bottom: 50px">Ajayi Timileyin.</h1>
+
+        <h1
+          class="responsive-title"
+          style="font-size: 100px; margin-bottom: 50px"
+        >
+          Ajayi Timileyin.
+        </h1>
         <h6 class="section__text__p2">Software Engineer</h6>
 
         <p style="color: #ffffff">
@@ -111,13 +122,13 @@
           <img
             src="./assets/linkedin.png"
             alt="My LinkedIn profile"
-            class="icon"
+            class="icon-e"
             onclick="location.href='https://www.linkedin.com/in/timileyin-daniel-ajayi'"
           />
           <img
             src="./assets/github.png"
             alt="My Github profile"
-            class="icon"
+            class="icon-e"
             onclick="location.href='https://github.com/Daniel-timmy/'"
           />
         </div>
@@ -177,7 +188,7 @@
         onclick="location.href='./#experience'"
       />
     </section>
-    <section id="experience">
+    <section id="skills">
       <p class="section__text__p1">Explore</p>
       <h1 class="title">My Skills</h1>
       <hr />
@@ -476,6 +487,10 @@
                 Led the development of several projects using Python, Flask,
                 Django, and JavaScript.
               </p>
+              <p>
+                Built an AI based traffic control system using YoLo, Java, and
+                Python
+              </p>
               <span class="badge rounded-pill bg-light text-dark">Python</span>
               <span class="badge rounded-pill bg-light text-dark"
                 >JavaScript</span
@@ -567,7 +582,7 @@
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onclick="location.href='https://github.com/Daniel-timmy/FRMRMRKT2.git'"
               >
                 Github
               </button>
@@ -585,7 +600,7 @@
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onclick="location.href='https://github.com/Daniel-timmy/AI-SCRAPPER.git'"
               >
                 Github
               </button>
@@ -603,7 +618,7 @@
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onclick="location.href='https://github.com/Daniel-timmy/E-park.git'"
               >
                 Github
               </button>
@@ -618,31 +633,53 @@
         onclick="location.href='./#contact'"
       />
     </section>
+    <hr />
+    <hr style="height: 5px; background-color: black; border: none" />
     <section id="contact">
-      <p class="section__text__p1">Get in Touch</p>
-      <h1 class="title">Contact Me</h1>
-      <div class="contact-info-upper-container">
-        <div class="contact-info-container">
-          <img
-            src="./assets/email.png"
-            alt="Email icon"
-            class="icon contact-icon email-icon"
-          />
+      <div
+        class="container"
+        style="
+          display: flex;
+          justify-content: space-between;
+          gap: 20px;
+          margin-top: 50px;
+        "
+      >
+        <div>
+          <h1 class="title" style="justify-self: left">Let's Get In Touch</h1>
           <p>
-            <a href="mailto:examplemail@gmail.com">ajayitimmy45@gmail.com</a>
+            Thank you for visiting my space! If you're looking for a versatile
+            engineer to collaborate with or hire, feel free to reach out. Let's
+            build something spectacular and transform the world—one line at a
+            time—together!
           </p>
-        </div>
-        <div class="contact-info-container">
-          <img
-            src="./assets/linkedin.png"
-            alt="LinkedIn icon"
-            class="icon contact-icon"
-          />
-          <p>
-            <a href="https://www.linkedin.com/in/timileyin-daniel-ajayi/"
-              >LinkedIn</a
-            >
-          </p>
+          <hr />
+          <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+              <img
+                src="./assets/email.png"
+                alt="email"
+                class="icon-e"
+                onclick="location.href='mailto:examplemail@gmail.com'"
+              />
+            </div>
+            <div class="contact-info-container">
+              <img
+                src="./assets/linkedin.png"
+                alt="LinkedIn icon"
+                class="icon-l contact-icon"
+                onclick="location.href='https://www.linkedin.com/in/timileyin-daniel-ajayi/'"
+              />
+            </div>
+            <div class="contact-info-container">
+              <img
+                src="./assets/x.png"
+                alt="X icon"
+                class="icon-l contact-icon"
+                onclick="location.href='https://x.com/timmyajayi4'"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </section>
